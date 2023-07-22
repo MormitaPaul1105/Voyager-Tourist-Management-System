@@ -1,0 +1,144 @@
+.card-header{
+    width:949px;
+    font-size:60px;
+    color:darkred;
+   background-color:lightgoldenrodyellow;
+}
+
+.img-style{
+    width:1000%;
+}
+
+.card-body{
+    
+    width:949px;
+    background-color:lightblue;
+    border:5px solid black;
+    margin:auto;
+    box-shadow:0 8px 16px 0 black, 0 6px 20px 0 blue;
+    
+    
+}
+.bb{
+  overflow: hidden;
+  width:45px;
+  background-color: whitesmoke;
+ 
+  border:2px solid black;
+  box-shadow:0 8px 16px 0 black, 0 6px 20px 0 blue;
+  padding: 10px 20px;
+  transition:0.25s;
+    
+}
+
+.bb1:hover{
+  box-shadow:0 8px 16px 0 black, 0 6px 20px 0 blue;
+  border:2px solid black;
+  background-color:gray;
+  color:white;
+  transform:rotate(360deg);
+}
+.bb a:hover{
+ 
+  background-color:gray;
+  color:white;
+  transform:rotate(360deg);
+}
+
+
+.card-text{
+    color:blue;
+    font-size:20px;
+}
+
+    a{
+        text-decoration:none;
+        font-size:20px;
+        color:red;
+      }
+      .row {
+        height:1050px;
+        width:960px;
+        font-family: Arial;
+       
+        padding: 10px;
+        background-color: lightcoral;
+ 
+      }
+      .border{
+        width:960px;
+        font-family: Arial;
+        margin-left:261.5px;
+        padding: 10px;
+        background-color: lightcoral;
+      }
+
+      body {
+      
+        font-family: Arial;
+        padding: 0px;
+        background-color: pink;
+      }
+      #title{
+        color:darkgreen;
+        font-size:60px;
+        margin-left:460px;
+      }
+      
+div.sticky {
+    position: sticky;
+    top: 5px;
+    padding: 0;
+    border: 2px solid #8461d4;
+  
+  }
+/* Style the top navigation bar */
+.topnav {
+  
+  overflow: hidden;
+  background-color: rgb(80, 17, 80);
+}
+.topnav a {
+  float: right;
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav p {
+    float: right;
+    display: block;
+    color: rgb(48, 6, 37);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+.button
+{
+  width: 150px;
+  height:60px;
+  border-radius:8px;
+  color:white;
+}
+.profilebutton{
+  position: fixed;
+  font-size:17px;
+  background-color:yellow;
+  color:darkred;
+}
+.profilebutton:hover{
+  background-color:blue;
+  color:white;
+  
+}
+div.fixed{
+  position:fixed;
+  bottom:5px;
+}

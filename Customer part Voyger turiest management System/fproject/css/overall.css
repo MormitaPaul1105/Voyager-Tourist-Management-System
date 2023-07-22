@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 0px;
+    background-color: pink;
+  }
+  div.frame
+  {
+    border-bottom: double;
+    padding: 10px;
+  }
+
+
+  div.sticky {
+    position: sticky;
+    top: 5px;
+    padding: 0;
+    border: 2px solid #8461d4;
+  
+  }
+/* Style the top navigation bar */
+.topnav {
+  
+  overflow: hidden;
+  background-color: rgb(80, 17, 80);
+}
+.topnav a {
+  float: right;
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav p {
+    float: right;
+    display: block;
+    color: rgb(48, 6, 37);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+.button
+{
+  width: 150px;
+  height:60px;
+  border-radius:8px;
+  color:white;
+}
+.profilebutton{
+  position: fixed;
+  font-size:17px;
+  background-color:yellow;
+  color:darkred;
+}
+.profilebutton:hover{
+  background-color:blue;
+  color:white;
+  
+}
+
+a{
+    text-decoration:none;
+    font-size:20px;
+    color:red;
+  }
+  .sub
+  {
+    padding:15px 30px;
+    background-color:goldenrod;
+    box-shadow:0 8px 16px 0 black, 0 6px 20px 0 blue;
+    border:none;
+    text-align:center;
+    font-size:14px;
+    cursor:pointer;
+    margin:auto;
+    transition:0.25s;
+    display:inline-Block;
+  }
+  .sub1:hover{
+    box-shadow:0 8px 16px 0 black, 0 6px 20px 0 blue;
+    border:none;
+    background-color:slategray;
+    transform:rotate(360deg);
+  }

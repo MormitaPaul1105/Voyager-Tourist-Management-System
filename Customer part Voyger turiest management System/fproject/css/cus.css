@@ -1,0 +1,78 @@
+
+
+div.sticky {
+    position: sticky;
+    top: 5px;
+    padding: 0;
+    border: 2px solid #8461d4;
+  
+  }
+/* Style the top navigation bar */
+.topnav {
+  
+  overflow: hidden;
+  background-color: rgb(80, 17, 80);
+}
+.topnav a {
+  float: right;
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav p {
+    float: right;
+    display: block;
+    color: rgb(48, 6, 37);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+
+.button
+{
+  width: 150px;
+  height:60px;
+  border-radius:8px;
+  color:white;
+}
+.profilebutton{
+  position: fixed;
+  font-size:17px;
+  background-color:yellow;
+  color:darkred;
+}
+.profilebutton:hover{
+  background-color:blue;
+  color:white;
+  top:5px;
+}
+
+body{
+ background-image:url("https://images.unsplash.com/photo-1521170813716-0b3f42fcfb65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+h1,p{
+  font-size:40px;
+  font-family:"Times New Roman",Times,serif;
+  color:rgba(0, 100, 0, 0.483);
+}
+a{
+  text-decoration:none;
+  color:red;
+}
+#para{
+  color:blue;
+  padding:7px;
+}
+*{
+  box-sizing:border-box;
+  margin:2px;
+}
